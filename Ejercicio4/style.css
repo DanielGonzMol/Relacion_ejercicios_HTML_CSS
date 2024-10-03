@@ -1,0 +1,27 @@
+.trabajador1-h2 {
+  color: blue;
+}
+
+.trabajador2-h2 {
+  color: green;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+div {
+    background-color: grey;
+}
+
+.datos-personales {
+    border: 1px solid black;
+}
+
+.estudios {
+    border: 3px double black;
+}
