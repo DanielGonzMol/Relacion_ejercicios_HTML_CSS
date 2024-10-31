@@ -1,0 +1,40 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#primerParrafo {
+  background-color: grey;
+}
+
+.special {
+  color: blue;
+}
+
+h2, h3 {
+    border: 1px solid orange;
+}
+
+ul li {
+    color: red;
+}
+
+ul li ul li {
+    color: green;
+}
+
+p img {
+  border: 5px solid black;
+  width: 100px;
+}
+
+img[alt="segunda"]{
+  border: 5px solid red;
+}
+
+ .primero {
+  background-color: pink;
+}
+
+.segundo {
+  background-color: blue;
+}
