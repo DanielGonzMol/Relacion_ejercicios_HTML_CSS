@@ -3,9 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ejercicio12</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
+    <form>
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Su Nombre"
+          required
+        />
+
+        <label for="correo">Correo Electrónico:</label>
+        <input
+          type="email"
+          id="correo"
+          name="correo"
+          placeholder="nombre@servidor.com"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos del Proyecto</legend>
+        <label for="descripcion">Breve descripción del proyecto:</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+
+        <label for="estado">Estado actual del proyecto:</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="estado" value="planteamiento" required />
+            En planteamiento
+          </label>
+          <label>
+            <input type="radio" name="estado" value="planificacion" />
+            En planificación
+          </label>
+          <label>
+            <input type="radio" name="estado" value="ejecucion" />
+            En ejecución
+          </label>
+          <label>
+            <input type="radio" name="estado" value="finalizado" />
+            Ya finalizado
+          </label>
+        </div>
+
+        <label for="presupuesto">Presupuesto aproximado (€):</label>
+        <input
+          type="number"
+          id="presupuesto"
+          name="presupuesto"
+          placeholder="Introduce el presupuesto"
+          min="0"
+          step="0.01"
+          required
+        />
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
   </body>
 </html>
